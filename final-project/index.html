@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/dist/assets/owl.theme.default.min.css" />
+    <!-- bootstrap css core -->
+    <link
+      rel="stylesheet"
+      href="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!--fontawesome css  -->
+    <link
+      rel="stylesheet"
+      href="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <!-- Homepages--css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- header./start -->
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-4 col-md-4 col-lg-3">
+            <div class="logo">
+              <img src="assets/imgs/logo.png" alt="logo" />
+            </div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-6">
+            <div class="search">
+              <input class="" type="text" placeholder="Tìm kiếm" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-3">
+            <div class="icon">
+              <div class="cart">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+              </div>
+              <div class="user"><i class="fa-solid fa-user"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header./end -->
+    <!-- top bar./start -->
+    <div class="top-menu">
+      <div class="container">
+        <ul class="nav-bar">
+          <li class="shoe-style"><a href="#">Trang chủ</a></li>
+          <li class="shoe-style">
+            <a href="#">Giày sân cỏ nhân tạo</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="#">Giày bóng đá Nike</a></li>
+              <li><a href="#">Giày bóng đá Adidas</a></li>
+              <li><a href="#">Giày Mizuno</a></li>
+              <li><a href="#">Giày đá bóng Puma</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="#">Giày sân cỏ tự nhiên</a>
+            <i class="fa-solid fa-angle-down"></i>
+
+            <ul class="detail">
+              <li><a href="#">Giày Nike cỏ tự nhiên</a></li>
+              <li><a href="#">Giày Adidas cỏ tự nhiên</a></li>
+              <li><a href="#">Giày AKKA cỏ tự nhiên</a></li>
+              <li><a href="#">Giày Puma cỏ tự nhiên</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="#">Giày futsal</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="#">Giày Pan </a></li>
+              <li><a href="#">Giày Nike </a></li>
+              <li><a href="#">Giày Adidas </a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="#">Giày trẻ em</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="#">Giày Nike</a></li>
+              <li><a href="#">Giày Adidas</a></li>
+              <li><a href="#">Giày AKKA</a></li>
+              <li><a href="#">Giày Puma</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="#">Phụ kiện</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="#">Áo giữ nhiệt</a></li>
+              <li><a href="#">Tất đá bóng</a></li>
+              <li><a href="#">Đồ thủ môn</a></li>
+              <li><a href="#">Bóng đá</a></li>
+              <li><a href="#">Túi đá bóng</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/imgs/slider1.jpg"
+              class="d-block w-100"
+              alt="slider1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/slider2.jpg"
+              class="d-block w-100"
+              alt="slider2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/slider3.jpg"
+              class="d-block w-100"
+              alt="slider3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <h2 class="Genuine">GIÀY ĐÁ BÓNG CHÍNH HÃNG</h2>
+    <b
+      ><p class="maps"><a href="#">HỆ THỐNG CỬA HÀNG</a></p></b
+    >
+    <div class="container">
+      <div class="main">
+        <div class="title-sale">
+          <h2>Khuyến Mãi Lớn</h2>
+        </div>
+        <div class="promotion">
+          <div class="sale">
+            <a href="#"><img src="assets/imgs/1. Sale 2.jpg" alt="sale" /></a>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="discount">-34%</div>
+              <a href="#"></a><img src="assets/imgs/sale1.jpg" alt="sale1" />
+              <div class="name">
+                <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.3 TF HỒNG/ĐEN FW6940</h3>
+              </div>
+              <div class="price">1.190.000 vnđ</div>
+              <div class="cost"><del>1.800.000 vnđ</del></div>
+              <div class="more">Thêm vào giỏ</div>
+            </div>
+            <div class="item">
+              <div class="discount">-29%</div>
+              <a href="#"></a><img src="assets/imgs/sale1.jpg" alt="sale1" />
+              <div class="name">
+                <h3>
+                  GIÀY ĐÁ BÓNG NIKE TIEMPO 8 LEGEND ACADEMY TF - XANH NGỌC
+                  AT6100-303
+                </h3>
+              </div>
+              <div class="price">1.670.000 vnđ</div>
+              <div class="cost"><del>2.350.000 vnđ</del></div>
+              <div class="more">Thêm vào giỏ</div>
+            </div>
+            <div class="item">
+              <div class="discount">-21%</div>
+              <a href="#"></a><img src="assets/imgs/sale1.jpg" alt="sale1" />
+              <div class="name">
+                <h3>GIÀY ĐÁ BÓNG ADIDAS FREAK.3 TF ĐEN/XANH FY0623</h3>
+              </div>
+              <div class="price">1.730.000 vnđ</div>
+              <div class="cost"><del>2.200.000 vnđ</del></div>
+              <div class="more">Thêm vào giỏ</div>
+            </div>
+            <div class="item">
+              <div class="discount">-24%</div>
+              <a href="#"></a><img src="assets/imgs/sale1.jpg" alt="sale1" />
+              <div class="name">
+                <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.4 TF XANH LÁ</h3>
+              </div>
+              <div class="price">990.000 vnđ</div>
+              <div class="cost"><del>1.300.000 vnđ</del></div>
+              <div class="more">Thêm vào giỏ</div>
+            </div>
+            <div class="item">
+              <div class="discount">-34%</div>
+              <a href="#"></a><img src="assets/imgs/sale1.jpg" alt="sale1" />
+              <div class="name">
+                <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.3 TF HỒNG/ĐEN FW6940</h3>
+              </div>
+              <div class="price">1.190.000 vnđ</div>
+              <div class="cost"><del>1.800.000 vnđ</del></div>
+              <div class="more">Thêm vào giỏ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/dist/owl.carousel.min.js"></script>
+    <!-- bootstrap js core -->
+    <script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!--fontawesome js-->
+    <script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/Custom-owl.js"></script>
+  </body>
+</html>
