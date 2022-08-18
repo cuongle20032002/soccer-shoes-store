@@ -4,6 +4,8 @@
 }
 .row {
   height: 60px;
+  width: 100%;
+  margin-left: 0px;
 }
 .icon {
   display: flex;
@@ -82,9 +84,13 @@ input[type="text"] {
   top: 100%;
   width: 100%;
   padding-left: 0px;
-  z-index: 1;
+  z-index: 2;
 }
-
+.detail > li:hover {
+  background: #cfdffb;
+  box-shadow: 2px 2px #adadad;
+  transition: 0.4s;
+}
 .nav-bar > li:hover .detail {
   visibility: visible;
 }
@@ -101,10 +107,11 @@ input[type="text"] {
 }
 .detail li {
   width: 110%;
-  border: 1px solid #c7c7c7;
+  border: 1px solid #557885;
   background: #ffffff;
   padding-left: 5px;
-  border-bottom: 2px solid #c7c7c7;
+  border-bottom: 2px solid #c5c8cd;
+  transition: 0.5;
 }
 .promotion {
   display: flex;
@@ -119,14 +126,18 @@ input[type="text"] {
 .owl-carousel {
   width: 75%;
 }
-.title-sale {
+.titles {
   padding-bottom: 15px;
   text-transform: uppercase;
 }
-.title-sale h2 {
+.titles a {
+  text-decoration: none;
+}
+.titles h2 {
   font-size: 18px;
   border-bottom: 3px solid #000000;
   display: inline;
+  color: #000;
 }
 .main {
   padding-top: 30px;
@@ -149,11 +160,14 @@ input[type="text"] {
 .cost,
 .more {
   text-align: center;
+  padding: 5px;
 }
 .name h3 {
   font-size: 14px;
   overflow: hidden;
-  height: 30px;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 .price {
   color: red;
@@ -162,10 +176,14 @@ input[type="text"] {
 .cost {
   padding-bottom: 5px;
 }
+.more:hover {
+  background: #8f0000;
+}
 .more {
   padding: 10px;
   color: #ffffff;
-  background: #eb0606;
+  background: #cd2904;
+  transition: 0.5s;
 }
 .owl-dots {
   visibility: hidden;
@@ -188,6 +206,7 @@ input[type="text"] {
   top: 30%;
   transform: translateY(-50%);
   font-family: -webkit-body;
+  transition: 0.4s;
 }
 .owl-prev span {
   left: 0;
@@ -195,6 +214,12 @@ input[type="text"] {
 .owl-next span {
   right: 0;
 }
+.owl-next > span:hover,
+.owl-prev > span:hover {
+  background: #282727;
+  color: #dfdfdf;
+}
+
 .discount {
   position: absolute;
   width: 45px;
@@ -205,6 +230,145 @@ input[type="text"] {
   text-align: center;
   color: #ffffff;
 }
-.item{
+.item {
   border: 1px solid #eaeaea;
+  transition: 0.5s;
+}
+.item:hover {
+  box-shadow: 1px 1px 10px 1px #adadad;
+}
+.artificial,
+.nature,
+.FUTSAL,
+.children {
+  padding-right: 10px;
+  width: 25%;
+}
+.artificial img,
+.nature img,
+.FUTSAL img,
+.children img {
+  width: 90%;
+  padding-left: 15px;
+}
+.p-0 {
+  border: 1px solid #a19e9e;
+}
+.Trademarks {
+  width: 100%;
+}
+.note {
+  font-size: 20px;
+  font-weight: bold;
+}
+.illustration {
+  display: flex;
+  justify-content: center;
+}
+#trademark {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.outstanding p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+#elements,
+.choose {
+  font-size: 18px;
+  font-weight: bold;
+}
+.illustrations {
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.phone,.mess {
+  display: flex;
+  margin: 5px;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+.phone{
+background: #f4511e;
+}
+.mess{
+ background:  #367cf6;
+}
+.icon-phone {
+  font-size: 22px;
+  padding-right: 3px;
+}
+.call,.fb {
+  font-size: 20px;
+}
+.img-mess {
+  width: 24px;
+  padding-right: 3px;
+}
+.img-mess img{
+  width: 100%;
+  padding-top: 5px;
+}
+.footer_promotion{
+  padding:20px 0px;
+  background: #f3f3f3;
+}
+.footer_promotion h4{
+margin-bottom: 0;
+font-size: 1.2rem;
+}
+#logo img{
+  width: 100%;
+}
+.footer{
+  padding-top: 30px;
+}
+.footer-r{
+  display: flex;
+}
+.fi-content li{
+  list-style: none;
+}
+.fi-content a{
+  text-decoration: none;
+  color: #212529;
+}
+.fi-content ul{
+  padding-left: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.footer>.container{
+  height: 10rem;
+}
+.footer{
+  background: #e6e6e6;
+  height: 28rem;
+}
+.newfooter{
+  padding-right: 30px;
+}
+#text{
+  text-align: justify;
+  font-weight: 450;
+}
+.fi-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mota{
+  text-align: center;
 }
