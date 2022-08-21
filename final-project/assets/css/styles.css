@@ -402,7 +402,6 @@ input[type="text"] {
 
 
   
-  
 @media (max-width:1280px){
   .logo{
     padding-top: 15px;
@@ -437,14 +436,18 @@ display: block;}
 .footer{
   height: 46rem;
 }
+.illustration img {
+  width: 55%;
 }
+}
+
 @media (max-width:768px){
   .openbtn {
     width: 13%;
     height: 70%;
   }
   .logo img {
-    width: 100%%;
+    width: 100%;
 }
 
 .name h3{
@@ -455,7 +458,12 @@ display: block;}
   width: 55%;
 }
 }
-@media (max-width: 540px) {
+
+  
+@media (max-width:541px) {
+  .header {
+    height: 63px;
+}
   .register{
     position: absolute;
     top: 50px;
