@@ -444,15 +444,15 @@ display: block;}
     height: 70%;
   }
   .logo img {
-    width: 65%;
+    width: 100%%;
 }
-.logo {
-  margin-left: 45px;
-  padding-top: 0;
-}
+
 .name h3{
   font-size: 12px;
   height: 30px;
+}
+.illustration img {
+  width: 55%;
 }
 }
 @media (max-width: 540px) {
@@ -486,7 +486,7 @@ display: block;}
     height: 0;
   }
   .Genuine{
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 14px;
   }
   .main {
@@ -499,7 +499,7 @@ display: block;}
   font-size: 14px;
 }
 .logo img{
-  width: 70%;
+  width: 65%;
 }
 .logn{
   position: absolute;
@@ -536,8 +536,8 @@ display: block;}
   color: white;
   padding: 10px 15px;
   border: none;
-  width: 20%;
-  height: 80%;
+  width: 13%;
+  height: 75%;
   margin-top: 8px;
   border-radius: 4px;
   background: #0e1935;
@@ -552,8 +552,8 @@ display: block;}
   padding: 0;
 }
 .logo {
-  padding: 10px;
-  margin-left: 20px;
+  padding: 0px;
+  margin-left: 30px;
 }
 .delete{
   display: flex;
@@ -664,8 +664,8 @@ display: block;}
   padding-bottom: 5px;
 }
 .more{
-  font-size: 14px;
-  padding: 5px;
+  font-size: 16px;
+  padding: 10px;
 }
 .owl-next span,.owl-prev span {
   right: 2%;
