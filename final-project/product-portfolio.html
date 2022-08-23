@@ -1,12 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <p>2</p>  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thế giới bóng đá / giày bóng đá sân cỏ nhân tạo</title>
+    <link rel="stylesheet" href="lib/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/dist/assets/owl.theme.default.min.css" />
+    <!-- bootstrap css core -->
+    <link
+      rel="stylesheet"
+      href="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!--fontawesome css  -->
+    <link
+      rel="stylesheet"
+      href="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <!-- Homepages--css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/product-pportfolio.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 hamber">
+            <div id="mySidepanel" class="sidepanel">
+              <div class="delete">
+                <div class="category">Danh mục</div>
+                <div class="deletex">
+                  <a
+                    href="javascript:void(0)"
+                    class="closebtn"
+                    onclick="closeNav()"
+                    >×</a
+                  >
+                </div>
+              </div>
+              <ul class="nav-bar">
+                <li class="shoe-style"><a href="#">Trang chủ</a></li>
+                <li class="shoe-style">
+                  <a href="product-portfolio.html">Giày sân cỏ nhân tạo</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <ul class="detail">
+                    <li><a href="trademark.html">Giày bóng đá Nike</a></li>
+                    <li><a href="trademark.html">Giày bóng đá Adidas</a></li>
+                    <li><a href="trademark.html">Giày Mizuno</a></li>
+                    <li><a href="trademark.html">Giày đá bóng Puma</a></li>
+                  </ul>
+                </li>
+                <li class="shoe-style">
+                  <a href="product-portfolio.html">Giày sân cỏ tự nhiên</a>
+                  <i class="fa-solid fa-angle-down"></i>
+
+                  <ul class="detail">
+                    <li><a href="trademark.html">Giày Nike cỏ tự nhiên</a></li>
+                    <li>
+                      <a href="trademark.html">Giày Adidas cỏ tự nhiên</a>
+                    </li>
+                    <li><a href="trademark.html">Giày AKKA cỏ tự nhiên</a></li>
+                    <li><a href="trademark.html">Giày Puma cỏ tự nhiên</a></li>
+                  </ul>
+                </li>
+                <li class="shoe-style">
+                  <a href="product-portfolio.html">Giày futsal</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <ul class="detail">
+                    <li><a href="trademark.html">Giày Pan </a></li>
+                    <li><a href="trademark.html">Giày Nike </a></li>
+                    <li><a href="trademark.html">Giày Adidas </a></li>
+                  </ul>
+                </li>
+                <li class="shoe-style">
+                  <a href="product-portfolio.html">Giày trẻ em</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <ul class="detail">
+                    <li><a href="trademark.html">Giày Nike</a></li>
+                    <li><a href="trademark.html">Giày Adidas</a></li>
+                    <li><a href="trademark.html">Giày AKKA</a></li>
+                    <li><a href="trademark.html">Giày Puma</a></li>
+                  </ul>
+                </li>
+                <li class="shoe-style">
+                  <a href="product-portfolio.html">Phụ kiện</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <ul class="detail">
+                    <li><a href="trademark.html">Tất đá bóng</a></li>
+                    <li><a href="trademark.html">Bảo vệ chân</a></li>
+                    <li><a href="trademark.html">Bóng đá</a></li>
+                    <li><a href="trademark.html">Túi đựng giày</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <button class="openbtn" onclick="openNav()">☰</button>
+            <div class="logo">
+              <img src="assets/imgs/logo.png" alt="logo" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-6 sea">
+            <div class="search">
+              <input class="" type="text" placeholder="Tìm kiếm" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 logn">
+            <div class="icon">
+              <div class="cart">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+              </div>
+              <div class="user">
+                <i class="fa-solid fa-user"></i>
+                <ul class="register">
+                  <li><a href="trademark.html">Đăng ký</a></li>
+                  <li><a href="trademark.html">Đăng nhập</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-menu">
+      <div class="container">
+        <ul class="nav-bar">
+          <li class="shoe-style"><a href="#">Trang chủ</a></li>
+          <li class="shoe-style">
+            <a href="product-portfolio.html">Giày sân cỏ nhân tạo</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="trademark.html">Giày bóng đá Nike</a></li>
+              <li><a href="trademark.html">Giày bóng đá Adidas</a></li>
+              <li><a href="trademark.html">Giày Mizuno</a></li>
+              <li><a href="trademark.html">Giày đá bóng Puma</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="product-portfolio.html">Giày sân cỏ tự nhiên</a>
+            <i class="fa-solid fa-angle-down"></i>
+
+            <ul class="detail">
+              <li><a href="trademark.html">Giày Nike cỏ tự nhiên</a></li>
+              <li><a href="trademark.html">Giày Adidas cỏ tự nhiên</a></li>
+              <li><a href="trademark.html">Giày AKKA cỏ tự nhiên</a></li>
+              <li><a href="trademark.html">Giày Puma cỏ tự nhiên</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="product-portfolio.html">Giày futsal</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="trademark.html">Giày Pan </a></li>
+              <li><a href="trademark.html">Giày Nike </a></li>
+              <li><a href="trademark.html">Giày Adidas </a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="product-portfolio.html">Giày trẻ em</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="trademark.html">Giày Nike</a></li>
+              <li><a href="trademark.html">Giày Adidas</a></li>
+              <li><a href="trademark.html">Giày AKKA</a></li>
+              <li><a href="trademark.html">Giày Puma</a></li>
+            </ul>
+          </li>
+          <li class="shoe-style">
+            <a href="product-portfolio.html">Phụ kiện</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul class="detail">
+              <li><a href="trademark.html">Tất đá bóng</a></li>
+              <li><a href="trademark.html">Bảo vệ chân</a></li>
+              <li><a href="trademark.html">Bóng đá</a></li>
+              <li><a href="trademark.html">Túi đựng giày</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="stream">
+          <div>Trang chủ</div>
+          <div class="slash">/</div>
+          <div>Giày bóng đá sân cỏ nhân tạo</div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 le">
+            <div class="sidebar">
+              <div class="product-category">
+                <p class="title-category">DANH MỤC SẢN PHẨM</p>
+                <div class="block-content">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div>Giày đá bóng Nike</div>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div>Giày đá bóng Adidas</div>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div>Giày đá bóng Mizuno</div>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div>Giày đá bóng Puma</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-filter">
+              <div>
+                <p>LỌC SẢN PHẨM</p>
+                <div class="filter">
+                  <div class="title-color">MÀU SẮC</div>
+                  <div class="color">
+                    <ul class="choose-color">
+                      <li>
+                        <div class="Specifically pink"></div>
+                        <div class="name-color">Hồng</div>
+                      </li>
+                      <li>
+                        <div class="Specifically green"></div>
+                        <div class="name-color">Xanh</div>
+                      </li>
+                      <li>
+                        <div class="Specifically red"></div>
+                        <div class="name-color">Đỏ</div>
+                      </li>
+                      <li>
+                        <div class="Specifically yellow"></div>
+                        <div class="name-color">Vàng</div>
+                      </li>
+                      <li>
+                        <div class="Specifically black"></div>
+                        <div class="name-color">Đen</div>
+                      </li>
+                      <li>
+                        <div class="Specifically"></div>
+                        <div class="name-color">Trắng</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-9 ri">
+            <div class="view-product-list">
+              <div class="view-title">
+                <div class="name-title">GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO</div>
+                <div class="browse">
+                  <span>Sắp xếp theo:</span>
+                  <select>
+                    <option>Mặc định</option>
+                    <option>Giá tăng dần</option>
+                    <option>Giá giảm dần</option>
+                    <option>Sale</option>
+                  </select>
+                </div>
+              </div>
+              <div class="list">
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="discount">-34%</div>
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial1.jpg"
+                          alt="artificial1"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.190.000 vnđ</div>
+                      <div class="cost"><del>1.800.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="discount">-29%</div>
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial2.jpg"
+                          alt="artificial2"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.670.000 vnđ</div>
+                      <div class="cost"><del>2.350.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                  <li><div class="item">
+                    <div class="discount">-21%</div>
+                    <a href="product detail.html"><img src="assets/imgs/artificial3.jpg" alt="artificial3" /></a>
+                    <div class="name">
+                      <h3>NIKE TIEMPO 9 ACADEMY TF - XANH/TÍM - DA1191-054</h3>
+                    </div>
+                    <div class="price">1.730.000 vnđ</div>
+                    <div class="cost"><del>2.200.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div>
+                  </li>
+                  <li><div class="item">
+                    <div class="discount">-24%</div>
+                    <a href="product detail.html"><img src="assets/imgs/artificial4.jpg" alt="artificial4" /></a>
+                    <div class="name">
+                      <h3>NIKE TIEMPO REACT 9 PRO TF - XÁM/TÍM - DA1192-075</h3>
+                    </div>
+                    <div class="price">990.000 vnđ</div>
+                    <div class="cost"><del>1.300.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div></li>
+                  <li><div class="item">
+                    <div class="discount">-34%</div>
+                    <a href="product detail.html"><img src="assets/imgs/artificial5.jpg" alt="artificial5" /></a>
+                    <div class="name">
+                      <h3>ADIDAS XSPEEDFLOW .1 MESSI TF - VÀNG/CAM - GW3864
+                      </h3>
+                    </div>
+                    <div class="price">1.190.000 vnđ</div>
+                    <div class="cost"><del>1.800.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div></li>
+                  <li>
+                    <div class="item">
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial1.jpg"
+                          alt="artificial1"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.190.000 vnđ</div>
+                      <div class="cost"><del>1.800.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial2.jpg"
+                          alt="artificial2"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.670.000 vnđ</div>
+                      <div class="cost"><del>2.350.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                  <li><div class="item">
+                    <a href="product detail.html"><img src="assets/imgs/artificial3.jpg" alt="artificial3" /></a>
+                    <div class="name">
+                      <h3>NIKE TIEMPO 9 ACADEMY TF - XANH/TÍM - DA1191-054</h3>
+                    </div>
+                    <div class="price">1.730.000 vnđ</div>
+                    <div class="cost"><del>2.200.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div>
+                  </li>
+                  <li><div class="item">
+                    <a href="product detail.html"><img src="assets/imgs/artificial4.jpg" alt="artificial4" /></a>
+                    <div class="name">
+                      <h3>NIKE TIEMPO REACT 9 PRO TF - XÁM/TÍM - DA1192-075</h3>
+                    </div>
+                    <div class="price">990.000 vnđ</div>
+                    <div class="cost"><del>1.300.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div></li>
+                  <li><div class="item">
+                    <a href="product detail.html"><img src="assets/imgs/artificial5.jpg" alt="artificial5" /></a>
+                    <div class="name">
+                      <h3>ADIDAS XSPEEDFLOW .1 MESSI TF - VÀNG/CAM - GW3864
+                      </h3>
+                    </div>
+                    <div class="price">1.190.000 vnđ</div>
+                    <div class="cost"><del>1.800.000 vnđ</del></div>
+                    <div class="more">Thêm vào giỏ</div>
+                  </div></li>
+                  <li>
+                    <div class="item">
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial1.jpg"
+                          alt="artificial1"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.190.000 vnđ</div>
+                      <div class="cost"><del>1.800.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <a href="product detail.html"
+                        ><img
+                          src="assets/imgs/artificial2.jpg"
+                          alt="artificial2"
+                      /></a>
+                      <div class="name">
+                        <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
+                      </div>
+                      <div class="price">1.670.000 vnđ</div>
+                      <div class="cost"><del>2.350.000 vnđ</del></div>
+                      <div class="more">Thêm vào giỏ</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="lib/dist/owl.carousel.min.js"></script>
+  <!-- bootstrap js core -->
+  <script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <!--fontawesome js-->
+  <script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/Custom-owl.js"></script>
 </html>
