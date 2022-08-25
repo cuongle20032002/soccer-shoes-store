@@ -4,6 +4,9 @@
 .main .container{
     padding-top: 20px;
 }
+.logn,.sea,.hamber{
+    height: 100%;
+}
 .stream{
     display: flex;
 }
@@ -14,6 +17,13 @@
 }
 .slash {
     color: #8a8987;
+}
+input[type="text"] {
+    height: 70%;
+}
+.stream a{
+    text-decoration: none;
+    color: #000;
 }
 .title-category,.product-filter p{
     font-weight: 700;
