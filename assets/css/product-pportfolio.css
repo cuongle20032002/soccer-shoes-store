@@ -425,5 +425,18 @@ iframe {
 .poth {
     top: -60px;
 }
+
+.fi-content ul {
+    max-height: 145px;
+}
+.choose-color {
+    display: block;
+}
+.Specifically {
+    margin-left: 0px;
+}
+.choose-color li {
+    display: flex;
+}
 }
   
