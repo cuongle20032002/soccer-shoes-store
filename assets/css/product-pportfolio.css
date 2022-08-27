@@ -64,13 +64,26 @@ input[type="text"] {
     width: 15px;
     height: 15px;
     margin-top: 6px;
-    border: 1px solid #4e4e4e;
+    border: 1px solid #c5c0c0;
+    transition: 0.3s;
+}
+.Specifically:hover{
+    border: 1px solid #000;
 }
 .name-color {
+    color: #615a5a;
     padding-bottom: 5px;
     margin-bottom: 5px;
     padding-left: 10px;
+    transition: 0.3s;
 }
+.choose-color a{
+    text-decoration: none;
+    color: #000;
+}
+.name-color:hover{
+    color: #000;
+} 
 .pink{
     background: #ff008c;
 }
@@ -89,7 +102,7 @@ input[type="text"] {
 .le{
     width: 20%;
     border: 1px solid #c6c4c4;
-    height:500px;
+    height:fit-content;
 }
 .main .container .row{
     padding-top: 10px;
@@ -166,24 +179,11 @@ color: #000000;
 .pages>div:hover{
     background: #a8a8a8;
 }
-.information h2{
-    font-size: 18px;
-    font-weight: 700;
-}
-.information h3{
-    font-size: 17px;
-}
-.information p{
-    font-weight: 500;
-    padding-top: 5px;
-    text-align: justify;
-}
-.v{
-    display: flex;
-    justify-content: center;
-}
+
+
+
 .contact{
-    padding-top: 0px;
+    padding-top: 30px;
 }
 .client{
     font-size: 18px;
@@ -222,6 +222,14 @@ iframe {
 .address{
     font-weight: 500;
 }
+.block-content a{
+    text-decoration: none;
+    color: #615a5a;
+    transition: 0.3s;
+}
+.block-content>ul>li>a:hover{
+    color: #000;
+}
 
 
 @media (max-width:1024px){
@@ -231,7 +239,6 @@ iframe {
     }
     .le {
         width: 25%;
-        height: 510px;
     }
     .title-category, .product-filter p {
         padding-left: 0px;
@@ -274,7 +281,6 @@ iframe {
     .le {
         display: flex;
         width: 100%;
-        height: 100%;
         justify-content: center;
     }
     .browse span {

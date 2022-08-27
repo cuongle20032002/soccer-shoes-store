@@ -98,8 +98,11 @@ input[type="text"] {
 .shoe-style {
   position: relative;
   font-size: large;
-  padding: 10px;
   transition: 0.6s;
+  padding: 10px;
+}
+.shoe-style>a:nth-child(1){
+  padding: 10px;
 }
 .detail {
   position: absolute;
@@ -125,12 +128,13 @@ input[type="text"] {
 .detail a {
   color: black;
   font-size: medium;
+  display: block;
 }
 .fa-angle-down {
   color: white;
 }
 .detail li {
-  width: 110%;
+  width: 100%;
   border: 1px solid #557885;
   background: #ffffff;
   padding-left: 5px;
@@ -449,9 +453,15 @@ iframe{
 .end{
   background: #e6e6e6;
 }
-
+.fi-title a{
+  text-decoration: none;
+  color: #000;
+}
   
-@media (max-width:1024px){
+@media (max-width:1200px){
+  .shoe-style>a:nth-child(1) {
+    padding: 0px
+}
   .footer_promotion h4 {
     font-size: 14px;
 }
