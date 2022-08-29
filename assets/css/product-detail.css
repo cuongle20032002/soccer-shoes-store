@@ -87,10 +87,10 @@
     }
       
       .gallery-thumbs img{
-          width: 90%;
+          width: 80%;
           padding: 5px;
           transition: 0.5s;
-          height: 95%;
+          height: 100%;
       }
     
       .swiper-button-white:hover{
@@ -426,6 +426,10 @@
                 }
                 footer.footer {
                     justify-content: center;
+                }
+                .gallery-thumbs img {
+                    width: 85%;
+                    height: 80%;
                 }
     }
     @media (max-width:768px){

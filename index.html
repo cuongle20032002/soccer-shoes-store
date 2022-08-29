@@ -97,13 +97,17 @@
             <div class="icon">
               <div class="cart">
                 <i class="fa-solid fa-cart-arrow-down"></i>
+                <span class="amount-add">0</span>
               </div>
-              <div class="user"><i class="fa-solid fa-user"></i>
-              
-              
-              <ul class="register">
-                <li><a href="product-portfolio.html">Đăng ký</a></li>
-                <li><a href="product-portfolio.html">Đăng nhập</a></li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown" type="button" 
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i>
+                 
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="signin.html"><i class="fa-solid fa-registered"></i>
+                    Đăng ký</a></li>
+                  <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
                 </ul>
               </div>
             </div>
@@ -720,8 +724,8 @@
     <p class="illustrations">Đây là yếu tố có vẻ khá mông lung khi lựa chọn một đôi giày bóng đá chính hãng, bởi lẽ, với  mỗi người, khái niệm về kích cỡ phù hợp sẽ là vô cùng khác nhau, và với mỗi thương hiệu, số liệu của họ cũng sẽ vô cùng khác nhau. Độ dài dư mũi mà chúng tôi đưa ra là từ một nửa đến một đốt ngón tay ở mũi giày. Một đôi giày có kích cỡ quá bé sẽ làm cho bạn dễ dàng gặp tình trạng bó tức, còn nếu thừa quá nhiều, bạn sẽ dễ dàng gặp phải tình trạng bất tiện như vấp mũi hay đôi giày không được chắc chắn, từ đó sẽ làm mất đi sự tự tin, sự thoải mái và cảm giác chắc chắn cần thiết trên một đôi giày.</p>
     <div class="illustration"><img src="assets/imgs/bang_size_giay_da_bong_nike.png" alt=""></div>
  <div class="contact">
-   <div class="phone"><div class="icon-phone"><i class="fa-solid fa-square-phone"></i></div><div class="call">0123456789</div></div>
-   <div class="mess"><div class="img-mess"><img src="assets/imgs/facebook_ttv.png" alt=""></div><div class="fb">FACEBOOK</div></div>
+   <div class="phone"><div class="icon-phone"><i class="fa-solid fa-square-phone"></i></div><div class="call"><a href="#"> 0123456789</a></div></div>
+   <div class="mess"><div class="img-mess"><img src="assets/imgs/facebook_ttv.png" alt=""></div><div class="fb"><a href="https://www.facebook.com/">FACEBOOK</a></div></div>
  </div>
   </div>
   </div>
@@ -747,6 +751,7 @@
   </div>
   </div>
   </div>
+ 
   <div class="end">
 <div class="container">
   <footer class="footer">
@@ -797,6 +802,7 @@
   </footer>
 </div>
 </div>
+
     <script src="lib/jquery-3.6.0.min.js"></script>
     <script src="lib/dist/owl.carousel.min.js"></script>
     <!-- bootstrap js core -->

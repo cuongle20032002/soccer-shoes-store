@@ -33,7 +33,7 @@
               <div id="mySidepanel" class="sidepanel">
               <div class="delete"><div class="category">Danh mục</div>  <div class="deletex"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div></div>
               <ul class="nav-bar">
-                <li class="shoe-style"><a href="#">Trang chủ</a></li>
+                <li class="shoe-style"><a href="index.html">Trang chủ</a></li>
                 <li class="shoe-style">
                   <a href="product-portfolio.html">Giày sân cỏ nhân tạo</a>
                   <i class="fa-solid fa-angle-down"></i>
@@ -101,15 +101,19 @@
               <div class="icon">
                 <div class="cart">
                   <i class="fa-solid fa-cart-arrow-down"></i>
+                  <span class="amount-add">0</span>
                 </div>
-                <div class="user"><i class="fa-solid fa-user"></i>
-                
-                
-                <ul class="register">
-                  <li><a href="product-portfolio.html">Đăng ký</a></li>
-                  <li><a href="product-portfolio.html">Đăng nhập</a></li>
-                  </ul>
-                </div>
+               <div class="dropdown">
+                <button class="btn btn-secondary dropdown" type="button" 
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i>
+                 
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="signin.html"><i class="fa-solid fa-registered"></i>
+                    Đăng ký</a></li>
+                  <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+                </ul>
+              </div>
               </div>
               </div>
             </div>
@@ -281,8 +285,8 @@
           </div>
           </div>
           <div class="contact">
-            <div class="phone"><div class="icon-phone"><i class="fa-solid fa-square-phone"></i></div><div class="call">0123456789</div></div>
-            <div class="mess"><div class="img-mess"><img src="assets/imgs/facebook_ttv.png" alt=""></div><div class="fb">FACEBOOK</div></div>
+            <div class="phone"><div class="icon-phone"><i class="fa-solid fa-square-phone"></i></div><div class="call"><a href="#"> 0123456789</a></div></div>
+            <div class="mess"><div class="img-mess"><img src="assets/imgs/facebook_ttv.png" alt=""></div><div class="fb"><a href="https://www.facebook.com/"> FACEBOOK</a></div></div>
           </div>
           <div class="clients">
             <h3 class="client">KHÁCH HÀNG THẾ GIỚI BÓNG ĐÁ</h3>
@@ -402,9 +406,9 @@
             <div class="comment-info-inputText">
               <h3 class="h5">Viết bình luận của bạn</h3>
               <textarea id="commentText" class="form-control input" rows="10" placeholder="Viết bình luận của bạn tại đây. Nội dung bình luận phải có hơn 30 ký tự"></textarea></div>
-             <div class="log-in">
+             <a href="login.html"><div class="log-in">
                   Đăng nhập để đánh giá
-             </div>
+             </div></a>
             </div>
             <div class="footer_promotion ">
               <div class="container">
