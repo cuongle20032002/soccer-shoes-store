@@ -650,7 +650,23 @@ button.remove-product {
 .modal-footer .btn-secondary {
   background: #01457f;
 }
-
+.see-more a{
+  color: #000;
+  text-decoration: none;
+  
+}
+.see-more{
+  text-align: end;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+.owl-theme .owl-nav {
+   margin-top: 0;
+  height: 0;
+}
+.see-more:hover{
+  font-weight: 600;
+}
 @media (max-width: 1200px) {
   .modal-dialog {
     max-width: 80%;
@@ -798,6 +814,12 @@ button.remove-product {
 }
 
 @media (max-width: 576px) {
+  .see-more a{
+    font-size: 14px;
+  }
+  .see-more {
+    margin-bottom: 1.5rem;
+}
   .product-line-price,
   .column-labels {
     display: none;
