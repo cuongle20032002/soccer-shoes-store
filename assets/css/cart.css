@@ -1,0 +1,118 @@
+/* Apply clearfix in a few places */
+
+/* Apply dollar signs */
+
+
+
+.ca h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+.ca {
+  margin-top: 4rem;
+}
+.shopping-cart {
+  margin-top: 2rem;
+}
+.product-image {
+  width: 20%;
+}
+.product-details {
+  width: 40%;
+}
+.product-price {
+  width: 10%;
+}
+.product-quantity {
+  width: 10%;
+}
+.product-removal {
+  width: 10%;
+}
+.product-line-price {
+  width: 10%;
+}
+
+/* Column headers */
+.column-labels {
+  display: flex;
+}
+.column-labels div {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #c5c5c5;
+  padding-top: 1rem;
+  border-top: 1px solid #c5c5c5;
+  font-weight: 400;
+}
+
+/* Product entries */
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e2e2;
+  display: flex;
+}
+
+.product-image,
+.product-price,
+.product-quantity,
+.product-removal,
+.product-line-price {
+  text-align: center;
+  font-weight: 400;
+}
+.product .product-image img {
+  width: 100px;
+}
+
+.product-details .product-title {
+  margin-right: 20px;
+}
+.product-details .product-description {
+  margin: 5px 20px 5px 0;
+  line-height: 1.4em;
+  font-weight: 450;
+}
+
+.product-quantity input {
+  width: 40px;
+}
+
+.product-quantity .remove-product {
+  border: 0;
+  padding: 4px 8px;
+  background-color: #c66;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.product-quantity .remove-product:hover {
+  background-color: #a44;
+}
+
+/* Totals section */
+.totals .totals-item {
+  margin-bottom: 1rem;
+}
+
+.totals label {
+  width: 88%;
+  text-align: right;
+  font-weight: 500;
+}
+
+.totals .totals-value {
+  float: right;
+  font-weight: 500;
+}
+
+
+
+
+

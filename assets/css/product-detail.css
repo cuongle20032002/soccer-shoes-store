@@ -10,7 +10,9 @@
     font-size: 16px;
     font-weight: 500;
 }
-
+.left-box a{
+    text-decoration: none;
+}
 
 .slash {
     color: #8a8987;}
@@ -181,9 +183,13 @@
     .pick-amount>div:hover{
         border: 2px solid #d44c0a;
     }
+    .buying .btn-primary {
+        padding: 0;
+margin-top: 40px;   
+width: 100%;
+border-color: #ffffff; }
     .buy{
         border: 1px solid #d44c0a;
-        margin-top: 40px;
     padding: 10px 0px;
     text-align: center;
     color: white;
@@ -535,9 +541,13 @@
         .deduction, .add {
             font-size: 20px;
         }
-        .buy {
-                margin: 25px;
-            }
+        .buying .btn-primary{
+            margin:20px 0px;
+            width: 90%;
+        }
+        .buying{
+            text-align: center;
+        }
         .gallery-thumbs{
             height: fit-content;
         }

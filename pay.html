@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thanh Toán</title>
     <link
       rel="stylesheet"
@@ -14,12 +14,233 @@
       rel="stylesheet"
       href="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css"
     />
-
-</head>
-<body>
-   
-</body>
-<script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-<!--fontawesome js-->
-<script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+    <link rel="stylesheet" href="assets/css/pay.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo">
+            <a href="index.html">
+              <img src="assets/imgs/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="header__title .mar-t20-b10">THANH TOÁN</div>
+        </header>
+        <div class="content">
+          <form action="">
+            <div class="content__first pad-lr-15 mar-t20-b10 flex-grow-1">
+              <div class="content-title mar-t20-b10">
+                <div class="content-title__number">1</div>
+                <p class="content-title__text">Thông tin đơn hàng</p>
+              </div>
+              <div class="input">
+                <div class="input-name">
+                  <p>Họ và tên<span class="star">*</span></p>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="width-full"
+                    placeholder="Họ và tên ?"
+                  />
+                </div>
+                <div class="input-mailPhone width-full">
+                  <div class="input-mail">
+                    <p>Email</p>
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="width-full"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="input-phone">
+                    <p>Điện thoại<span class="star">*</span></p>
+                    <input
+                      name=""
+                      id=""
+                      class="width-full"
+                      placeholder="Số điện thoại"
+                    />
+                  </div>
+                </div>
+                <div class="input-address">
+                  <p>Địa chỉ<span class="star">*</span></p>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="width-full"
+                    placeholder="Địa chỉ"
+                  />
+                </div>
+                <div class="address-infor width-full">
+                  <div class="address-infor__province">
+                    <p>Tỉnh/ Thành phố<span class="star">*</span></p>
+                    <select name="" id="" class="width-full">
+                      <option value="">Chọn Tỉnh/ Thành phố</option>
+                      <option value="">Hà Nội</option>
+                      <option value="">Thành phố Hồ Chí Minh</option>
+                      <option value="">Nam Định</option>
+                      <option value="">Thái Bình</option>
+                      <option value="">Hà Nam</option>
+                    </select>
+                  </div>
+                  <div class="address-infor__district">
+                    <p>Quận/ Huyện<span class="star">*</span></p>
+                    <select name="" id="" class="width-full">
+                      <option value="">Chọn Quận/ Huyện</option>
+                      <option value="">Xuân Trường</option>
+                      <option value="">Hải Hậu</option>
+                      <option value="">Ý Yên</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="address-infor__commune">
+                  <p>Phường/ Xã<span class="star">*</span></p>
+                  <select name="" id="" class="width-full">
+                    <option value="">Chọn Phường/ Xã</option>
+                    <option value="">Hà Nội</option>
+                    <option value="">Thành phố Hồ Chí Minh</option>
+                    <option value="">Nam Định</option>
+                    <option value="">Thái Bình</option>
+                    <option value="">Hà Nam</option>
+                  </select>
+                </div>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="note"
+                  placeholder="Ghi chú đơn hàng"
+                ></textarea>
+              </div>
+            </div>
+            <div class="content__second pad-lr-15 mar-t20-b10 flex-grow-1">
+              <div class="content-title mar-t20-b10">
+                <div class="content-title__number">2</div>
+                <p class="content-title__text">Phương thức thanh toán</p>
+              </div>
+              <div class="input">
+                <input type="radio" name="pay" id="" />
+                <span>Thanh toán tiền mặt khi nhận hàng (COD)</span> <br />
+              </div>
+              <div class="input">
+                <input type="radio" name="pay" id="" />
+                <span>Mua hàng tại cửa hàng</span> <br />
+              </div>
+              <div class="map">
+                <div class="address">
+                  Địa chỉ:48 P. Tố Hữu, Trung Văn, Từ Liêm, Hà Nội
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.2158001579323!2d105.79442941706357!
+  3d20.9981200857462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acba7ddb0f43%3A0xe7d7c05f85f830a
+  !2zNDggUC4gVOG7kSBI4buvdSwgVHJ1bmcgVsSDbiwgVOG7
+  qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1661262642066!5m2!1svi!2s"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+              <div class="input">
+                <input type="radio" name="pay" id="" />
+                <div class="momo">
+                  <img src="assets/imgs/momo.jpg" alt="" />
+                  <span>Ví MoMo</span>
+                </div>
+              </div>
+            </div>
+            <div class="content__third pad-lr-15 mar-t20-b10 flex-grow-1">
+              <div class="content-title mar-t20-b10">
+                <div class="content-title__number">3</div>
+                <p class="content-title__text">Thông tin giỏ hàng</p>
+              </div>
+              <div class="merchandise-infor">
+                <table>
+                  <tr id="merchandise-infor">
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="product detail.html"
+                        >GIÀY ĐÁ BÓNG NIKE TIEMPO 8 LEGEND ACADEMY TF - XANH
+                        NGỌC AT6100-303</a
+                      >
+                    </td>
+                    <td>1</td>
+                    <td>1.900.000 vnđ</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="product detail.html">Nike jordan đen/xanh</a>
+                    </td>
+                    <td>1</td>
+                    <td>6.000.000 vnđ</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="result">
+                <div class="result__title">
+                  <span class="text-bold">Tạm tính</span>
+                </div>
+                <div class="result__content">
+                  <span>7.900.000 vnđ</span>
+                </div>
+              </div>
+              <div class="result">
+                <div class="result__title">
+                  <span>Phí vận chuyển</span>
+                </div>
+                <div class="result__content">
+                  <span>Miễn phí vận chuyển</span>
+                </div>
+              </div>
+              <div class="result">
+                <div class="result__title">
+                  <span class="text-bold">Tổng cộng</span>
+                </div>
+                <div class="result__content">
+                  <span class="total">7.900.000 vnđ</span>
+                </div>
+              </div>
+              <div class="promotion">
+                <div class="promotion__title">
+                  <span>Nhập mã ưu đãi ( Mã Coupon, Voucher )</span>
+                </div>
+                <div class="promotion__body">
+                  <input type="text" placeholder="Nhập vào nếu có" />
+                  <button>
+                    <span>Áp dụng</span>
+                  </button>
+                </div>
+              </div>
+              <div class="content__third-btn">
+                <a href="index.html">Tiếp tục mua hàng</a>
+                <a href="Order-Success.html">Đặt hàng</a>
+              </div>
+              <div class="note">
+                <p>
+                  Tôi đồng ý với
+                  <a href="">điều kiện và chính sách giao hàng</a> của website
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <!--fontawesome js-->
+  <script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
 </html>
