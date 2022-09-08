@@ -144,9 +144,10 @@ button#dropdownMenuButton1 {
 }
 .shoe-style {
   position: relative;
-  font-size: large;
+  font-size: 17px;
   transition: 0.6s;
   padding: 10px;
+  font-weight: 500;
 }
 .shoe-style > a:nth-child(1) {
   padding: 10px;
@@ -368,6 +369,9 @@ button#dropdownMenuButton1 {
 .choose {
   font-size: 18px;
   font-weight: bold;
+}
+.illus{
+  text-align: center;
 }
 .illustrations {
   font-size: 16px;
