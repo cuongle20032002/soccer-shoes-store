@@ -10,9 +10,10 @@
   width: 100%;
   margin-left: 0px;
 }
+
 .icon {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   width: 100%;
 }
 .cart {
@@ -26,8 +27,11 @@
   min-width: 6rem;
   font-size: 14px;
 }
+.sea{
+  text-align: center;
+}
 .logo {
-  padding: 10px;
+  padding: 5px 10px 10px 0px;
 }
 .search {
   display: inline-block;
@@ -46,6 +50,9 @@
   height: 0;
   width: 0;
 }
+button.openbtn {
+  display: none;
+}
 .logo img {
   width: 80%;
 }
@@ -58,6 +65,7 @@ input[type="text"] {
 }
 .hamber {
   display: flex;
+  padding-left: 0;
 }
 .fa-magnifying-glass {
   position: absolute;
@@ -131,6 +139,7 @@ button#dropdownMenuButton1 {
 .top-menu a {
   text-decoration: none;
 }
+
 .nav-bar {
   justify-content: center;
   padding-left: 0px;
@@ -142,6 +151,12 @@ button#dropdownMenuButton1 {
 #carouselExampleIndicators {
   padding-top: 7.4em;
 }
+.nav-bar >li:nth-child(6){
+  padding-right: 0;
+}
+.nav-bar >li:nth-child(1){
+  padding-left: 0;
+}
 .shoe-style {
   position: relative;
   font-size: 17px;
@@ -150,7 +165,7 @@ button#dropdownMenuButton1 {
   font-weight: 500;
 }
 .shoe-style > a:nth-child(1) {
-  padding: 10px;
+  padding: 10px 10px 10px 0px;
 }
 .detail {
   position: absolute;
@@ -281,7 +296,7 @@ button#dropdownMenuButton1 {
   border: 2px solid #000000;
   color: #000000;
   position: absolute;
-  top: 30%;
+  top: 50%;
   transform: translateY(-50%);
   font-family: -webkit-body;
   transition: 0.4s;
@@ -349,6 +364,7 @@ button#dropdownMenuButton1 {
 .note {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 20px;
 }
 .illustration {
   display: flex;
@@ -657,7 +673,7 @@ button.remove-product {
 .see-more a{
   color: #000;
   text-decoration: none;
-  
+  transition: 0.3s;
 }
 .see-more{
   text-align: end;
@@ -668,8 +684,8 @@ button.remove-product {
    margin-top: 0;
   height: 0;
 }
-.see-more:hover{
-  font-weight: 600;
+.see-more>a:hover{
+  color: red;
 }
 @media (max-width: 1200px) {
   .modal-dialog {
@@ -908,7 +924,9 @@ button.remove-product {
     padding-left: 5px;
     border: 1px solid #9c9c9c;
   }
-
+  .footer_promotion {
+    padding: 20px 0px;
+}
   .top-menu {
     visibility: hidden;
     height: 0;
@@ -951,7 +969,9 @@ button.remove-product {
     overflow-x: hidden;
     transition: 0.5s;
   }
-
+  button.openbtn {
+    display: block;
+  }
   .sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -960,7 +980,9 @@ button.remove-product {
     display: block;
     transition: 0.3s;
   }
-
+.icon{
+  margin-top: 5px;
+}
   .logo-img {
     padding: 0px 0px;
   }
@@ -1083,8 +1105,7 @@ button.remove-product {
   }
   .owl-carousel {
     width: 100%;
-    padding: 10px;
-    padding-bottom: 0;
+    padding:0px 10px;
   }
   .item img {
     padding: 10px;
@@ -1114,13 +1135,13 @@ button.remove-product {
   }
   .owl-next span,
   .owl-prev span {
-    right: 2%;
-    top: 40%;
+    right: 0;
+    top: 50%;
     width: 20px;
   }
 
   .owl-prev span {
-    left: 2%;
+    left: 0;
   }
   .row {
     height: 100%;
@@ -1132,11 +1153,17 @@ button.remove-product {
     padding: 5px 0px;
     width: 100%;
   }
+  .nav-bar >li:nth-child(1) {
+    padding-left: 25px;
+}
   .note {
     font-size: 16px;
   }
   .illustration img {
     width: 95%;
+  }
+  .search{
+    margin-left: 0;
   }
   #trademark {
     font-size: 16px;

@@ -12,6 +12,7 @@
 }
 .left-box a{
     text-decoration: none;
+    color: #000;
 }
 
 .slash {
@@ -46,7 +47,11 @@
         margin: 0;
         padding: 0;
       }
-  
+      .swiper-button-prev:after,.swiper-button-next:after {
+        font-size: 25px;
+        font-weight: bold;
+    }
+   
       .swiper {
         width: 100%px;
         height: 450px;
@@ -83,7 +88,10 @@
         
       }
       .swiper-button-next,.swiper-button-prev  {
-        color: #646464;
+        color: #000000;
+        border: 2px solid #000000;
+        width: 30px;
+        height: 50px;
         background: #ededed;
         transition: 0.5s;
     }
@@ -273,8 +281,7 @@ border-color: #ffffff; }
             font-size: 18px;
             font-weight: 500;
             border-bottom: 1px solid #9a9999;
-            
-    padding-left: 10px;
+    padding-left: 20px;
         }
         .avt {
             width: 80px;
@@ -285,6 +292,7 @@ border-color: #ffffff; }
         }
         .list-cmt {
             margin-top: 30px;
+            padding-left: 20px;
         }
     .cmt li{
         list-style: none;
@@ -350,7 +358,10 @@ border-color: #ffffff; }
     }
     .comment-info-inputText  h3 {
         font-size: 18px;
-        padding-left: 5px;
+        padding-left: 20px;
+    }
+    textarea#commentText {
+        padding-left: 20px;
     }
     .log-in{
         margin-bottom: 20px;
@@ -555,6 +566,7 @@ border-color: #ffffff; }
             right: 7px;
             top: -30px;
             width: fit-content;
+            padding-right: 0;
         }
         .info-left {
             margin-left: 8px;
@@ -615,9 +627,8 @@ border-color: #ffffff; }
         .log-in{
             font-size: 14px;
         }
-        .openbtn{
-            left: 1%;
-            top: 1%;
+        .logn {
+            height: 70%;
         }
         .fi-content ul {
             max-height: 128px;
