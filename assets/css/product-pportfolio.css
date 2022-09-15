@@ -245,6 +245,9 @@ iframe {
     .le {
         width: 25%;
     }
+    .ri{
+        width: 75%;
+    }
     .title-category, .product-filter p {
         padding-left: 0px;
         text-align: center;
@@ -437,7 +440,7 @@ iframe {
     height: 25%;
 }
 .contact {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 .map {
     margin-top: 0%;
@@ -469,6 +472,9 @@ iframe {
 }
 .logn {
     height: 70%;
+}
+.clients{
+    margin-top: 0;
 }
 }
   

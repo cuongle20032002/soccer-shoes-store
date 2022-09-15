@@ -178,9 +178,11 @@
     .value,.deduction,.add{
         width: 30px;
     }
+    
     .amount{
         width: 40px;
         font-size: 18px;
+        text-align: center;
     }
     .amounts{
         margin-top: 15px;
@@ -188,7 +190,7 @@
     .deduction,.add{
         font-size: 25px;
     }
-    .pick-amount>div:hover{
+    .pick-amount>button:hover{
         border: 2px solid #d44c0a;
     }
     .buying .btn-primary {

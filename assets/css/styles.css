@@ -69,7 +69,7 @@ input[type="text"] {
 }
 .fa-magnifying-glass {
   position: absolute;
-
+color: #000;
   right: 10px;
   top: 28px;
 }
@@ -1146,7 +1146,7 @@ button.remove-product {
   .row {
     height: 100%;
   }
-  .artificial,
+  .artificial,fa-magnifying-glass
   .nature,
   .FUTSAL,
   .children {
