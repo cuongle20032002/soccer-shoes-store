@@ -119,9 +119,21 @@ button#dropdownMenuButton1 {
   text-align: center;
   font-weight: 600;
   right: -10px;
+  border: #fff;
 }
 /* top bar */
-
+.Alert{position: fixed;
+  width: 300px;
+  height: 40px;
+  z-index: 99999999;
+  right: 0px;
+  display: flex;
+  border-radius: 30px;
+  padding: 10px;
+  top: 8%;
+  align-items: center;
+  justify-content: center;
+  background: red}
 .top-menu {
   background: rgb(10 20 68);
   position: fixed;
@@ -232,6 +244,12 @@ button#dropdownMenuButton1 {
 }
 .main {
   padding-top: 30px;
+}
+.totals-value span{font-size: 18px;}
+sup {
+  font-size: 18px;
+  margin-left: 4px;
+  top:0
 }
 .Genuine {
   text-align: center;
@@ -496,6 +514,7 @@ button#dropdownMenuButton1 {
   text-transform: uppercase;
   font-weight: 500;
 }
+
 .mota {
   text-align: center;
 }
@@ -558,6 +577,7 @@ iframe {
 label {
   color: rgb(0, 0, 0);
 }
+
 .ca {
   margin-top: 4rem;
 }
@@ -568,19 +588,25 @@ label {
   width: 20%;
 }
 .product-details {
-  width: 30%;
+  width: 35%;
 }
 .product-price {
-  width: 15%;
+  width: 20%;
 }
 .product-quantity {
-  width: 10%;
+  width: 15%;
 }
 .product-removal {
   width: 10%;
 }
 .product-line-price {
-  width: 15%;
+  width: 20%;
+  text-align: end;
+  font-weight: 400;
+}
+.product sup{
+  font-size: 16px;
+  top:11px;
 }
 button.remove-product {
   font-size: 14px;
@@ -610,8 +636,8 @@ button.remove-product {
 .product-image,
 .product-price,
 .product-quantity,
-.product-removal,
-.product-line-price {
+.product-removal
+ {
   text-align: center;
   font-weight: 400;
 }
@@ -869,7 +895,7 @@ button.remove-product {
     width: 50%;
   }
   .totals label {
-    width: 60%;
+    width: 50%;
 }
 .modal-title {
   font-size: 1.5rem;
@@ -1096,9 +1122,7 @@ button.remove-product {
   .promotion {
     display: block;
   }
-  .titles {
-    padding-bottom: 5px;
-  }
+ 
   .sale {
     width: 0;
     height: 0;
@@ -1146,11 +1170,12 @@ button.remove-product {
   .row {
     height: 100%;
   }
-  .artificial,fa-magnifying-glass
+  .artificial,fa-magnifying-glass,
   .nature,
   .FUTSAL,
   .children {
-    padding: 5px 0px;
+    padding-bottom: 10px;
+    padding-right: 0;
     width: 100%;
   }
   .nav-bar >li:nth-child(1) {
@@ -1286,4 +1311,5 @@ button.remove-product {
   .map {
     width: 100%;
   }
+  .product sup{display: none;}
 }

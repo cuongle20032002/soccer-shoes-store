@@ -98,7 +98,7 @@
               <div class="cart">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   <i class="fa-solid fa-cart-arrow-down"></i>
-                <span class="amount-add">2</span>
+                <input  class="amount-add" value="0">
                 </button>
                 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog  modal-lg">
@@ -118,57 +118,20 @@
                                   <div class="product-removal">Xóa </div>
                                   <div class="product-line-price">Tổng</div>
                                 </div>
-                              
-                                <div class="product"> 
-                                  <div class="product-image">
-                                    <img src="assets/imgs/sale2.jpg">
-                                  </div>
-                                  <div class="product-details">
-                                    <p class="product-description">GIÀY ĐÁ BÓNG NIKE TIEMPO 8 LEGEND ACADEMY TF - XANH NGỌC AT6100-303</p>
-                                  </div>
-                                  <div class="product-price">1.900.000 vnđ</div>
-                                  <div class="product-quantity">
-                                    <input type="number" value="1" min="1">
-                                  </div>
-                                  <div class="product-removal">
-                                    <button class="remove-product">
-                                      Xóa
-                                    </button>
-                                  </div>
-                                  <div class="product-line-price">1.900.000 vnđ</div>
-                                </div>
-                              
-                                <div class="product">
-                                  <div class="product-image">
-                                    <img src="assets/imgs/artificial1.jpg">
-                                  </div>
-                                  <div class="product-details">
-                                    <p class="product-description">ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3></p>
-                                  </div>
-                                  <div class="product-price">1.190.000 vnđ</div>
-                                  <div class="product-quantity">
-                                    <input type="number" value="1" min="1">
-                                  </div>
-                                  <div class="product-removal">
-                                    <button class="remove-product">
-                                     Xóa
-                                    </button>
-                                  </div>
-                                  <div class="product-line-price">1.190.000 vnđ</div>
-                                </div>
-                              
+                              <div class="tbody">
+                              </div>
                                 <div class="totals">
                                   <div class="totals-item totals-item-total">
                                     <label>Tổng cộng</label>
-                                    <div class="totals-value" id="cart-total">3.090.000 vnđ</div>
+                                    <div class="totals-value" id="cart-total"><span>0</span><sup>vnđ</sup></div>
                                   </div>
                                 </div>
                               </div>
                               </div>
-                      </div>
-                      <div class="modal-footer">
-                       <a href="index.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">TIẾP TỤC MUA SẮM</button></a>
-                       <a href="pay.html"> <button type="button" class="btn btn-primary">ĐẶT HÀNG</button></a>
+                              <div class="modal-footer">
+                                <a href="index.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">TIẾP TỤC MUA SẮM</button></a>
+                                <a href="pay.html"> <button type="button" class="btn btn-primary">ĐẶT HÀNG</button></a>
+                               </div>
                       </div>
                     </div>
                   </div>
@@ -248,6 +211,7 @@
           </li>
         </ul>
       </div>
+    </div>
     </div>
     <div class="container">
       <div
@@ -331,16 +295,15 @@
             <a href="product-portfolio.html"><img src="assets/imgs/1. Sale 2.jpg" alt="sale" /></a>
           </div>
           <div class="owl-carousel owl-theme">
-           
             <div class="item">
               <a href="product-detail.html"><div class="link"><div class="discount">-34%</div>
               <img src="assets/imgs/sale1.jpg" alt="sale1" />
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.3 TF HỒNG/ĐEN FW6940</h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span> 1.190.000</span><sup>vnđ<sup></div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
          
          
@@ -353,9 +316,9 @@
                   AT6100-303
                 </h3>
               </div>
-              <div class="price">1.670.000 vnđ</div>
+              <div class="price"><span>1.670.000</span><sup> vnđ</sup></div>
               <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
          
            
@@ -365,9 +328,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG ADIDAS FREAK.3 TF ĐEN/XANH FY0623</h3>
               </div>
-              <div class="price">1.730.000 vnđ</div>
+              <div class="price"><span>  1.730.000</span><sup>vnđ</sup></div>
               <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
          
            
@@ -377,9 +340,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.4 TF XANH LÁ</h3>
               </div>
-              <div class="price">990.000 vnđ</div>
+              <div class="price"><span> 990.000</span><sup> vnđ</sup></div>
               <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
          
            
@@ -389,9 +352,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG ADIDAS XGHOSTED.3 TF HỒNG/ĐEN FW6940</h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span>  1.190.000</span><sup> vnđ</sup></div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
          
           </div>
@@ -423,9 +386,9 @@
               <div class="name">
                 <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"><div class="discount">-29%</div>
@@ -435,9 +398,9 @@
                   ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973
                 </h3>
               </div>
-              <div class="price">1.670.000 vnđ</div>
+              <div class="price"><span>1.670.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-21%</div>
@@ -445,9 +408,9 @@
               <div class="name">
                 <h3>NIKE TIEMPO 9 ACADEMY TF - XANH/TÍM - DA1191-054</h3>
               </div>
-              <div class="price">1.730.000 vnđ</div>
+              <div class="price"><span>1.730.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-24%</div>
@@ -455,9 +418,9 @@
               <div class="name">
                 <h3>NIKE TIEMPO REACT 9 PRO TF - XÁM/TÍM - DA1192-075</h3>
               </div>
-              <div class="price">990.000 vnđ</div>
+              <div class="price"><span>990.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"><div class="discount">-34%</div>
@@ -466,9 +429,9 @@
                 <h3>ADIDAS XSPEEDFLOW .1 MESSI TF - VÀNG/CAM - GW3864
                 </h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
           </div>
         </div>
@@ -494,14 +457,14 @@
           </div>
           <div class="owl-carousel owl-theme">
             <div class="item">
-              <a href="product-detail.html"><div class="link"><div class="discount">-34%</div>
-              <img src="assets/imgs/nature1.jpg" alt="nature1" />
+              <a href="product-detail.html"><div class="link"> <div class="discount">-21%</div>
+              <img src="assets/imgs/nature3.jpg" alt="nature3" />
               <div class="name">
-                <h3>GIÀY ĐÁ BÓNG ADIDAS X SPEEDFLOW.1 FG - TRẮNG/XÁM - FY6869</h3>
+                <h3>GIÀY ĐÁ BÓNG KAMITO TA11 FG ĐỎ F21009</h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
-              <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="price"><span>1.730.000</span><sup> vnđ</sup> </div>
+              <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-29%</div>
@@ -511,9 +474,9 @@
                   ADIDAS XSPEEDFLOW.3 FG - XANH NGỌC - GW7483
                 </h3>
               </div>
-              <div class="price">1.670.000 vnđ</div>
+              <div class="price"><span> 1.670.000 </span><sup>vnđ</sup></div>
               <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-21%</div>
@@ -521,9 +484,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG KAMITO TA11 FG ĐỎ F21009</h3>
               </div>
-              <div class="price">1.730.000 vnđ</div>
+              <div class="price"><span>1.730.000</span><sup> vnđ</sup> </div>
               <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-24%</div>
@@ -531,9 +494,9 @@
               <div class="name">
                 <h3>ADIDAS COPA SENSE.3 FG - TRẮNG/XANH</h3>
               </div>
-              <div class="price">990.000 vnđ</div>
+              <div class="price"><span>990.000</span><sup>vnđ</sup></div>
               <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-34%</div>
@@ -542,9 +505,9 @@
                 <h3>GIÀY BÓNG ĐÁ ADIDAS XSPEEDLOW.3 FG ĐỎ - FY3298
                 </h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
           </div>
         </div>
@@ -575,9 +538,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG NIKE PREMIER 2 SALA IC ĐỎ/ĐEN</h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span> 1.190.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-29%</div>
@@ -587,9 +550,9 @@
                   GIÀY ĐÁ BÓNG NIKE NIKE LUNAR GATO II IC 580456-301
                 </h3>
               </div>
-              <div class="price">1.670.000 vnđ</div>
+              <div class="price"><span>1.670.000</span><sup>vnđ</sup></div>
               <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-21%</div>
@@ -597,9 +560,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG NIKE LUNAR GATO II IC CT0550-608</h3>
               </div>
-              <div class="price">1.730.000 vnđ</div>
+              <div class="price"><span>1.730.000</span><sup> vnđ</sup></div>
               <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-24%</div>
@@ -607,9 +570,9 @@
               <div class="name">
                 <h3>GIÀY ĐÁ BÓNG NIKE TIEMPO LUNA LEGEND 7 PRO IC TR/CAM</h3>
               </div>
-              <div class="price">990.000 vnđ</div>
+              <div class="price"><span>990.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
             <div class="item">
               <a href="product-detail.html"><div class="link"> <div class="discount">-34%</div>
@@ -618,9 +581,9 @@
                 <h3>Giày đá banh Nike Premier Sala II IC
                 </h3>
               </div>
-              <div class="price">1.190.000 vnđ</div>
+              <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
               <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-              <a href=#><div class="more">Thêm vào giỏ</div></a>
+              <div class="more">Thêm vào giỏ</div>
             </div>
           </div>
         </div>
@@ -651,9 +614,9 @@
             <div class="name">
               <h3>GIÀY ĐÁ BÓNG NIKE PREMIER 2 SALA IC ĐỎ/ĐEN</h3>
             </div>
-            <div class="price">1.190.000 vnđ</div>
+            <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-            <a href="#"><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
          
           <div class="item">
@@ -664,9 +627,9 @@
                 GIÀY ĐÁ BÓNG NIKE NIKE LUNAR GATO II IC 580456-301
               </h3>
             </div>
-            <div class="price">1.670.000 vnđ</div>
+            <div class="price"><span>1.670.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
          
           <div class="item">
@@ -675,9 +638,9 @@
             <div class="name">
               <h3>GIÀY ĐÁ BÓNG NIKE LUNAR GATO II IC CT0550-608</h3>
             </div>
-            <div class="price">1.730.000 vnđ</div>
+            <div class="price"><span>1.730.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-            <a href="#"><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
          
           <div class="item">
@@ -686,9 +649,9 @@
             <div class="name">
               <h3>GIÀY ĐÁ BÓNG NIKE TIEMPO LUNA LEGEND 7 PRO IC TR/CAM</h3>
             </div>
-            <div class="price">990.000 vnđ</div>
+            <div class="price"><span>990.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
          
           <div class="item">
@@ -698,9 +661,9 @@
               <h3>Giày đá banh Nike Premier Sala II IC
               </h3>
             </div>
-            <div class="price">1.190.000 vnđ</div>
+            <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
           </a>
         </div>
@@ -733,9 +696,9 @@
             <div class="name">
               <h3>BÓNG ADIDAS UCL FINALE FINALE 2022 - 2023</h3>
             </div>
-            <div class="price">1.190.000 vnđ</div>
+            <div class="price"><span>1.190.000</span><sup> vnđ</sup></div>
             <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
           
           
@@ -747,9 +710,9 @@
                 TÚI ĐỰNG GIÀY AKKA 2 NHIỀU MÀU
               </h3>
             </div>
-            <div class="price">1.670.000 vnđ</div>
+            <div class="price"><span>1.670.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
           
           
@@ -759,9 +722,9 @@
             <div class="name">
               <h3>BỌC ỐNG ĐỒNG ADIDAS TIROS CLUB - ĐEN</h3>
             </div>
-            <div class="price">1.730.000 vnđ</div>
+            <div class="price"><span>1.730.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
           
           
@@ -771,9 +734,9 @@
             <div class="name">
               <h3>TẤT DỆT KIM AKKA PRO</h3>
             </div>
-            <div class="price">990.000 vnđ</div>
+            <div class="price"><span>990.000</span><sup>vnđ</sup> </div>
             <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
           
           <div class="item">
@@ -783,9 +746,9 @@
               <h3>Giày đá banh Nike Premier Sala II IC
               </h3>
             </div>
-            <div class="price">1.190.000 vnđ</div>
+            <div class="price"><span>1.190.000</span><sup> vnđ</sup></div>
             <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-            <a href=#><div class="more">Thêm vào giỏ</div></a>
+            <div class="more">Thêm vào giỏ</div>
           </div>
         </div>
       </div>
@@ -908,7 +871,7 @@
     <script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <!--fontawesome js-->
     <script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/Custom-owl.js"></script>
+    <script src="assets/js/cart.js"></script>
   </body>
 </html>

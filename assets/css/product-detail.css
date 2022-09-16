@@ -193,7 +193,7 @@
     .pick-amount>button:hover{
         border: 2px solid #d44c0a;
     }
-    .buying .btn-primary {
+    .buying  {
         padding: 0;
 margin-top: 40px;   
 width: 100%;
@@ -560,12 +560,14 @@ border-color: #ffffff; }
         }
         .buying{
             text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
         }
         .gallery-thumbs{
             height: fit-content;
         }
         .right-box {
-            right: 7px;
+            right: 10px;
             top: -30px;
             width: fit-content;
             padding-right: 0;

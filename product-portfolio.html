@@ -89,7 +89,7 @@
                     <li><a href="#">Tất đá bóng</a></li>
                     <li><a href="#">Bảo vệ chân</a></li>
                     <li><a href="#">Bóng đá</a></li>
-                    <li><a href="#">Túi đựng giày</a></li>
+                    <li><a href="#">Túi giày</a></li>
                   </ul>
                 </li>
               </ul>
@@ -102,7 +102,7 @@
           <div class="col-12 col-sm-4 col-md-4 col-lg-6 sea">
             <div class="search">
               <input class="" type="text" placeholder="Tìm kiếm" />
-              <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="search.html"> <i class="fa-solid fa-magnifying-glass"></i></a> 
             </div>
           </div>
           <div class="col-12 col-sm-4 col-md-4 col-lg-3 logn">
@@ -110,7 +110,7 @@
               <div class="cart">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   <i class="fa-solid fa-cart-arrow-down"></i>
-                <span class="amount-add">2</span>
+                <input class="amount-add" value="0">
 
                 </button>
                 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -123,67 +123,29 @@
                       <div class="modal-body">
                           <div class="container">
                               <div class="shopping-cart">
-                              
                                 <div class="column-labels">
                                   <div class="product-image">Hình ảnh</div>
                                   <div class="product-details">Chi tiết sản phẩm</div>
                                   <div class="product-price">Giá</div>
                                   <div class="product-quantity">Số lượng</div>
                                   <div class="product-removal">Xóa </div>
-                                  <div class="product-line-price">Tổng</div>
                                 </div>
-                              
-                                <div class="product"> 
-                                  <div class="product-image">
-                                    <img src="assets/imgs/sale2.jpg">
-                                  </div>
-                                  <div class="product-details">
-                                    <p class="product-description">GIÀY ĐÁ BÓNG NIKE TIEMPO 8 LEGEND ACADEMY TF - XANH NGỌC AT6100-303</p>
-                                  </div>
-                                  <div class="product-price">1.900.000 vnđ</div>
-                                  <div class="product-quantity">
-                                    <input type="number" value="1" min="1">
-                                  </div>
-                                  <div class="product-removal">
-                                    <button class="remove-product">
-                                    Xóa 
-                                    </button>
-                                  </div>
-                                  <div class="product-line-price">1.900.000 vnđ</div>
+                                <div class="tbody">
                                 </div>
-                              
-                                <div class="product">
-                                  <div class="product-image">
-                                    <img src="assets/imgs/artificial1.jpg">
-                                  </div>
-                                  <div class="product-details">
-                                    <p class="product-description">ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3></p>
-                                  </div>
-                                  <div class="product-price">1.190.000 vnđ</div>
-                                  <div class="product-quantity">
-                                    <input type="number" value="1" min="1">
-                                  </div>
-                                  <div class="product-removal">
-                                    <button class="remove-product">
-                                      Xóa
-                                    </button>
-                                  </div>
-                                  <div class="product-line-price">1.190.000 vnđ</div>
-                                </div>
-                              
-                                <div class="totals">
-                                  <div class="totals-item totals-item-total">
-                                    <label>Tổng cộng</label>
-                                    <div class="totals-value" id="cart-total">3.090.000 vnđ</div>
-                                  </div>
+                                  <div class="totals">
+                                    <div class="totals-item totals-item-total">
+                                      <label>Tổng cộng</label>
+                                      <div class="totals-value" id="cart-total"><span>0</span><sup>vnđ</sup></div>
+                                    </div>
                                 </div>
                               </div>
                               </div>
+                              <div class="modal-footer">
+                                <a href="index.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">TIẾP TỤC MUA SẮM</button></a>
+                                <a href="pay.html"> <button type="button" class="btn btn-primary">ĐẶT HÀNG</button></a>
+                               </div>
                       </div>
-                      <div class="modal-footer">
-                       <a href="index.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">TIẾP TỤC MUA SẮM</button></a>
-                       <a href="pay.html"> <button type="button" class="btn btn-primary">ĐẶT HÀNG</button></a>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -255,7 +217,7 @@
               <li><a href="#">Tất đá bóng</a></li>
               <li><a href="#">Bảo vệ chân</a></li>
               <li><a href="#">Bóng đá</a></li>
-              <li><a href="#">Túi đựng giày</a></li>
+              <li><a href="#">Túi giày</a></li>
             </ul>
           </li>
         </ul>
@@ -343,7 +305,6 @@
                     <div><option>Mặc định</option></div>
                     <option>Giá tăng dần</option>
                     <option>Giá giảm dần</option>
-                    <option>Sale</option>
                   </select>
                 </div>
               </div>
@@ -359,9 +320,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.190.000 vnđ</div>
+                      <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
                       <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-                      <a href="#"><div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                   <li>
@@ -374,9 +335,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.670.000 vnđ</div>
+                      <div class="price"><span>1.670.000</span><sup>vnđ</sup> </div>
                       <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-                     <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                   <li>
@@ -386,9 +347,9 @@
                     <div class="name">
                       <h3>NIKE TIEMPO 9 ACADEMY TF - XANH/TÍM - DA1191-054</h3>
                     </div>
-                    <div class="price">1.730.000 vnđ</div>
+                    <div class="price"><span>1.730.000</span><sup>vnđ</sup></div>
                     <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-                   <a href="#"><div class="more">Thêm vào giỏ</div></a>
+                   <div class="more">Thêm vào giỏ</div>
                   </div>
                  
                   </li>
@@ -400,9 +361,9 @@
                     <div class="name">
                       <h3>NIKE TIEMPO REACT 9 PRO TF - XÁM/TÍM - DA1192-075</h3>
                     </div>
-                    <div class="price">990.000 vnđ</div>
+                    <div class="price"><span>990.000</span><sup>vnđ</sup></div>
                     <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-                   <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                    <div class="more">Thêm vào giỏ</div>
                   </div>
                 </li>
                 <li>
@@ -413,9 +374,9 @@
                       <h3>ADIDAS XSPEEDFLOW .1 MESSI TF - VÀNG/CAM - GW3864
                       </h3>
                     </div>
-                    <div class="price">1.190.000 vnđ</div>
+                    <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
                     <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-                   <a href="#"><div class="more">Thêm vào giỏ</div></a>
+                   <div class="more">Thêm vào giỏ</div>
                   </div>
                 </li>
                 <li>
@@ -427,9 +388,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.190.000 vnđ</div>
+                      <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
                       <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-                     <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                 <li>
@@ -441,9 +402,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.670.000 vnđ</div>
+                      <div class="price"><span>1.670.000</span><sup> vnđ</sup></div>
                       <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-                    <a href="#">  <div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                   <li><div class="item">
@@ -451,9 +412,9 @@
                     <div class="name">
                       <h3>NIKE TIEMPO 9 ACADEMY TF - XANH/TÍM - DA1191-054</h3>
                     </div>
-                    <div class="price">1.730.000 vnđ</div>
+                    <div class="price"><span>1.730.000</span><sup>vnđ</sup> </div>
                     <div class="cost"><del>2.200.000 vnđ</del></div></div></a>
-                   <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                    <div class="more">Thêm vào giỏ</div>
                   </div>
                   </li>
                   <li><div class="item">
@@ -461,9 +422,9 @@
                     <div class="name">
                       <h3>NIKE TIEMPO REACT 9 PRO TF - XÁM/TÍM - DA1192-075</h3>
                     </div>
-                    <div class="price">990.000 vnđ</div>
+                    <div class="price"><span>990.000</span><sup>vnđ</sup> </div>
                     <div class="cost"><del>1.300.000 vnđ</del></div></div></a>
-                  <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                   <div class="more">Thêm vào giỏ</div>
                   </div></li>
                   <li>
                     <div class="item">
@@ -472,9 +433,9 @@
                       <h3>ADIDAS XSPEEDFLOW .1 MESSI TF - VÀNG/CAM - GW3864
                       </h3>
                     </div>
-                    <div class="price">1.190.000 vnđ</div>
+                    <div class="price"><span>1.190.000</span><sup>vnđ</sup> </div>
                     <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-                   <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                    <div class="more">Thêm vào giỏ</div>
                   </div></li>
                   <li>
                     <div class="item">
@@ -485,9 +446,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.190.000 vnđ</div>
+                      <div class="price"><span>1.190.000</span><sub> vnđ</sub></div>
                       <div class="cost"><del>1.800.000 vnđ</del></div></div></a>
-                     <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                   <li>
@@ -499,9 +460,9 @@
                       <div class="name">
                         <h3>ADIDAS X SPEEDPORTAL.1 TF - XANH CÂY - GW8973</h3>
                       </div>
-                      <div class="price">1.670.000 vnđ</div>
+                      <div class="price"><span>1.670.000</span><sup>vnđ</sup> </div>
                       <div class="cost"><del>2.350.000 vnđ</del></div></div></a>
-                     <a href="#"> <div class="more">Thêm vào giỏ</div></a>
+                      <div class="more">Thêm vào giỏ</div>
                     </div>
                   </li>
                 </ul>
@@ -616,6 +577,6 @@
   <script src="lib/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
   <!--fontawesome js-->
   <script src="lib/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/js/all.min.js"></script>
-  <script src="assets/js/main.js"></script>
   <script src="assets/js/Custom-owl.js"></script>
+  <script src="assets/js/cart.js"></script>
 </html>
