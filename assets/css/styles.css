@@ -119,6 +119,7 @@ button#dropdownMenuButton1 {
   text-align: center;
   font-weight: 600;
   right: -10px;
+  cursor: pointer;
   border: #fff;
 }
 /* top bar */
@@ -293,6 +294,7 @@ sup {
   color: #ffffff;
   background: #cd2904;
   transition: 0.5s;
+  cursor: pointer;
 }
 .owl-dots {
   visibility: hidden;
