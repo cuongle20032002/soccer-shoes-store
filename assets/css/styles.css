@@ -758,7 +758,8 @@ button.remove-product {
   }
 
   .footer_promotion {
-    padding: 40px 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
   .ft {
     display: block;
@@ -769,9 +770,7 @@ button.remove-product {
   .fi-content {
     overflow: hidden;
   }
-  .footer {
-    height: 52rem;
-  }
+  
   .illustration img {
     width: 55%;
   }
@@ -807,7 +806,7 @@ button.remove-product {
     font-size: 14px;
   }
   .footer {
-    height: 25rem;
+    height: 26rem;
   }
 }
 
